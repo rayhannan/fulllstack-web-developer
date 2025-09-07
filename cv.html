@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Biodata Lengkap</title>
+  <style>
+    :root{font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;}
+    body{display:flex;align-items:center;justify-content:center;min-height:100vh;background:#f3f4f6;margin:0;padding:24px}
+    .card{background:#fff;border-radius:12px;box-shadow:0 8px 30px rgba(2,6,23,0.08);overflow:hidden;max-width:900px;width:100%;display:grid;grid-template-columns:280px 1fr}
+    .photo{padding:24px;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,#fff,#fbfdff)}
+    .photo img{width:220px;height:220px;object-fit:cover;border-radius:12px;border:6px solid #fff;box-shadow:0 6px 20px rgba(2,6,23,0.06)}
+    .content{padding:28px}
+    h1{margin:0;font-size:24px}
+    .subtitle{color:#6b7280;margin-top:6px;margin-bottom:18px}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+    .field{background:#f8fafc;padding:12px;border-radius:8px}
+    .label{font-size:12px;color:#6b7280}
+    .value{font-weight:600;margin-top:6px}
+    .fullwidth{grid-column:1/-1}
+    .section{margin-top:18px}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{background:#eef2ff;padding:6px 10px;border-radius:999px;font-size:13px}
+    .footer{margin-top:18px;color:#374151;font-size:14px}
+    @media (max-width:720px){.card{grid-template-columns:1fr}.photo{padding:18px}.photo img{width:160px;height:160px}.content{padding:18px}}
+  </style>
+</head>
+<body>
+  <article class="card">
+    <aside class="photo">
+      <!-- Ganti query di src jika ingin foto yang berbeda -->
+      <img src="gunung-tertinggi-di-indonesiajp-20221205124551.jpg" alt="">
+    </aside>
+
+    <div class="content">
+      <h1>Biodata Lengkap</h1>
+      <div class="subtitle">Tampilan CV</div>
+
+      <div class="grid">
+        <div class="field">
+          <div class="label">Nama</div>
+          <div class="value">Nanda Rayhan Firdaus</div>
+        </div>
+
+        <div class="field">
+          <div class="label">Tempat, Tanggal Lahir</div>
+          <div class="value">Cibinong, 23 Desember 2004</div>
+        </div>
+
+        <div class="field">
+          <div class="label">Jenis Kelamin</div>
+          <div class="value">Laki-laki</div>
+        </div>
+
+        <div class="field">
+          <div class="label">Agama</div>
+          <div class="value">Islam</div>
+        </div>
+
+        <div class="field fullwidth">
+          <div class="label">Alamat</div>
+          <div class="value">Kp. Padurenan RT 04/RW 07, Pabuaran Mekar, Cibinong-Bogor</div>
+        </div>
+
+        <div class="field">
+          <div class="label">No. Telepon</div>
+          <div class="value">0896-1440-4889</div>
+        </div>
+
+        <div class="field">
+          <div class="label">Email</div>
+          <div class="value">nandarayhan23@gmail.com</div>
+        </div>
+
+        <div class="field fullwidth">
+          <div class="label">Pendidikan</div>
+          <div class="value">SMK Mekarwangi IC (Lulus 2023)</div>
+        </div>
+
+        <div class="field fullwidth">
+          <div class="label">Pengalaman / Organisasi</div>
+          <div class="value">Anggota Osis Bidang Seni & Olahraga (2023) 
+            — Asisten Lab Komputer (2022–2023)</div>
+        </div>
+
+        <div class="field fullwidth">
+          <div class="label">Kemampuan (Skills)</div>
+          <div class="skills">
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">Desain Grafis</span>
+            <span class="chip">Volly</span>
+          </div>
+        </div>
+
+        <div class="field fullwidth">
+          <div class="label">Hobi</div>
+          <div class="value">Desain, Hiking, Olahraga</div>
+        </div>
+
+        <div class="field fullwidth">
+          <div class="label">Keterangan Tambahan</div>
+          <div class="value">Siap bekerja dalam tim, jujur, dan cepat belajar</div>
+        </div>
+      </div>
+
+      <div class="footer"> Create By : nandarayhan23</div>
+  </article>
+</body>
+</html>
